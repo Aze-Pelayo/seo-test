@@ -1,5 +1,4 @@
 let meta = document.getElementsByTagName('meta');
+meta[2].content = "test dynamic meta"
 
-meta.description.content = "test dynamic meta"
-
-console.log('added meta description');
+console.log('added meta description content');
